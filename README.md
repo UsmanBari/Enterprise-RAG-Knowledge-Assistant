@@ -156,7 +156,8 @@ graph TD
 * **LLM Ingestion**: Groq receives context chunks and provides the response, identifying page references dynamically.
 
 ## Screenshots
-![Upload Screen](screenshots/upload.png)
+![Upload Screen](<img width="959" height="433" alt="Screenshot 2026-06-16 205435" src="https://github.com/user-attachments/assets/465fefbe-c853-4f2a-b2db-58853e4cf180" />
+)
 
 ## Future Improvements
 * 🔄 **Multi-Format Support** — Extend pipeline parsing to accept `.docx`, `.txt`, and `.csv` files.
