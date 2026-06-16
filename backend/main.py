@@ -42,6 +42,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def read_root():
+    return {"message": "Enterprise RAG Knowledge Assistant API is running. Check /health for status."}
+
 @app.get("/health", response_model=HealthResponse)
 def health_check():
     """
