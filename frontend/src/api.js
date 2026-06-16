@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://usmanbari2005-enterprise-rag-backend.hf.space";
 
 async function handleResponse(response) {
   if (!response.ok) {
